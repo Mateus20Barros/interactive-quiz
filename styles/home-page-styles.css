@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    min-width: 600px;
+    background-color: #7400b8;
+}
+
+header {
+    width: 100%;
+    padding: 2%;
+    text-shadow: 2px 2px 5px #000;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+header .container-header {
+    display: flex;
+    align-items: center;
+    animation: theme-box 2s ease;
+    justify-content: space-between;
+}
+
+@keyframes theme-box {
+    0% {
+        transform: rotateX(720deg);
+    }
+}
+
+header .container-header .title-box {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+header .container-header .icon-box {
+    color: #fff;
+}
+
+.container-info {
+    width: 100%;
+    display: flex;
+    padding: 1% 3%;
+    margin-top: 1.5%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.container-info .keep-container-info {
+    width: 60%;
+    padding: .8%;
+}
+
+.container-info .keep-container-info h3 {
+    width: 90%;
+    color: #fff;
+    margin-bottom: 4%;
+}
+
+.container-info .keep-container-info .info {
+    width: 90%;
+    color: #fff;
+    margin: .8% auto;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.theme-container {
+    width: 100%;
+    padding: 2% 0;
+    color: #fff;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px 5px #000;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.theme-container h1 {
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.6% auto 4% auto;
+}
+
+.theme-container .keep-theme-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.theme-box {
+    width: 20%;
+    padding: 3.5%;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 4px #fff;
+}
+
+.theme {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme i {
+    margin-right: 4%;
+}
+
+ul {
+    margin-top: 26%;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a li {
+    width: 100%;
+    padding: 3%;
+    margin: 5% 0;
+    color: #fff;
+    transition: .6s;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 25px;
+    list-style-type: none;
+    text-shadow: 1px 1px 2px #000;
+    box-shadow: inset 0px 0px 4px 3px #fff;
+}
+
+ul a li:hover {
+    color: #7400b8;
+    text-shadow: none;
+    font-weight: bold;
+    background: #fff;
+    transform: scaleX(1.1);
+    box-shadow: 1px 1px 2px 1px #000;
+}
+
+footer {
+    width: 100%;
+    padding: .3%;
+    display: flex;
+    color: #fff;
+    margin-top: 8%;
+    justify-content: space-between;
+}
+
+footer div {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+footer .copyright {
+    width: 33%;
+}
+
+footer .copyright i {
+    margin-right: 1%;
+}
+
+footer .quiz-name {
+    width: 33%;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer .quiz-name i {
+    margin: 0 2%;
+}
+
+footer .social-media {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+footer .social-media a {
+    color: #fff;
+    transition: .3s;
+    margin-right: 3%;
+}
+
+footer .social-media a:hover {
+    transform: scale(1.2);
+}

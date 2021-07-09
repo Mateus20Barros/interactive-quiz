@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #7400b8;
+}
+
+header {
+    padding: 1% 0;
+}
+
+header .header-container {
+    width: 90%;
+    display: flex;
+    color: #fff;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-shadow: 3px 3px 5px #000;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+header .header-container .header-icon{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-container .return-quiz {
+    animation: blink 1.5s ease infinite;
+}
+
+header .header-container .return-quiz:hover {
+    animation: none;
+}
+
+@keyframes blink {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header .header-container .header-icon a {
+    width: 100%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    transition: .6s;
+    border-radius: 25px;
+    text-shadow: 3px 3px 5px #000;
+}
+
+header .header-container .header-icon a i {
+    color: #fff;
+}
+
+header .header-container .header-title {
+    width: 70%;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    color: #fff;
+    margin-top: 3%;
+}
+
+section article {
+    width: 70%;
+    padding: 2%;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+section article h3 {
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+section article h3 i {
+    margin-right: 2%;
+}
+
+section article .countries-container {
+    width: 85%;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+section article .countries-container p {
+    width: 100%;
+}
+
+section article .countries-container p i {
+    margin-right: 10px;
+}
+
+section article p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+}
+
+section article .link-container {
+    display: flex;
+    padding: 1% 0;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+
+section article .link-container a {
+    width: 25%;
+    padding: .8%;
+    color: #fff;
+    transition: .8s;
+    text-align: center;
+    border-radius: 5px;
+    font-family: cursive;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000;
+    box-shadow: 0px 0px 0px 1.5px #fff;
+}
+
+section article .link-container a:hover {
+    text-shadow: none;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 4px #fff;
+}
+
+footer {
+    width: 100%;
+    padding: .3%;
+    display: flex;
+    color: #fff;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+
+footer div {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+footer .quiz-name {
+    width: 33%;
+}
+
+footer .quiz-logo {
+    width: 33%;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer .quiz-logo i {
+    margin: 0 2%;
+}
+
+footer .copyright {
+    width: 33%;
+    text-align: right;
+}
+
+footer .copyright i {
+    margin-right: 1%;
+}
