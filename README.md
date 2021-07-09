@@ -1,6 +1,9 @@
 <h1 align="center">:pencil:Interactive Quiz</h1>
 <br>
 
+
+***``⚠️ The project will undergo some changes, as it still has things to be done.``***
+
 :dart: It's a Front-end Project made with **HTML**, **CSS** and **Javascript**.
 
 <hr>
