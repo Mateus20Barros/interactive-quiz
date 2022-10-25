@@ -22,7 +22,7 @@ header .header-container {
     font-family: 'Akaya Kanadaka', cursive;
 }
 
-header .header-container .header-icon{
+header .header-container .header-icon {
     width: 8%;
     display: flex;
     align-items: center;
