@@ -50,7 +50,7 @@ After finishing reading the page, we can go back for the quiz screen by clicking
 
 ![](https://github.com/Mateus20Barros/interactive-quiz/blob/main/assets/statistics_screen.png)
 
-<hr>
+<hr> 
 <h3>:rocket: Technologies used</h3>
 <div display="flex">
   <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/html5/html5-original.svg" width="30">
