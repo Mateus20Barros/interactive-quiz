@@ -55,7 +55,6 @@ const showResults = () => {
 
 form.addEventListener('submit', event => {
     event.preventDefault()
-
     
     const userAnswers = getUserAnswers()
     calculateUserScore(userAnswers)
