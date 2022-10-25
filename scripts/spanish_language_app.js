@@ -7,7 +7,6 @@ buttonRules.addEventListener('click', () => {
     }
 })
 
-
 const form = document.querySelector('form')
 const popup = document.querySelector('.popup-statistics')
 const buttonSubmit = document.querySelector('.button-submit')
@@ -18,7 +17,6 @@ const correctAnswers = ['B', 'D', 'A', 'C', 'B']
 let score = 0
 let quizPorcentage = 0
 let correctAnswersQuantity = 0
-
 
 const getUserAnswers = () => correctAnswers.map((_, index) => {
     return form[`question${index + 1}`].value
@@ -55,7 +53,6 @@ const showResults = () => {
 
 form.addEventListener('submit', event => {
     event.preventDefault()
-
     
     const userAnswers = getUserAnswers()
     calculateUserScore(userAnswers)
