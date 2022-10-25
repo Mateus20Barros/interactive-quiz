@@ -161,17 +161,13 @@ header .header-container .icon-box i {
     animation: apper .5s ease-in;
 }
 
-.popup-statistics .popup-container .popup-info h3 span{
+.popup-statistics .popup-container .popup-info h3 span {
     color: rgba(0, 0, 255, .7);
 }
 
 @keyframes apper {
-    from {
-        transform: scale(3);
-    }
-    to {
-        transform: scale(1);
-    }
+    from { transform: scale(3); }
+    to { transform: scale(1); }
 }
 
 .popup-statistics .popup-container .popup-info h3:nth-child(2) {
